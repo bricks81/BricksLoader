@@ -1,0 +1,22 @@
+{
+    "name": "bricks81/bricks-loader",
+    "description": "Bricks CMS Framework - Loader",
+    "license": "MIT",
+    "keywords": [
+        "bricks",
+        "loader"
+    ],
+    "homepage": "https://www.bricks-cms.org",
+    "autoload": {
+        "psr-4": {
+            "Bricks\\Loader\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "bricks81/bricks-exception": "*",
+        "bricks81/bricks-config": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false    
+}
